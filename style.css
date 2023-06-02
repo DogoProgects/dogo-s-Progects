@@ -1,0 +1,382 @@
+body{
+    background-color: aquamarine;
+}
+.title{
+    font-family:"Roboto",sans-serif;
+    color:white;
+    z-index:0;
+    position: absolute;
+    left: 15px;
+    top: -15px;
+}
+#home{
+    font-family:"Roboto",sans-serif;
+    color:white;
+    font-size: medium;
+    z-index:0;
+    position: absolute;
+    right: 220px;
+    top: 17px;
+    cursor: pointer;
+    text-decoration:none;
+    font-style: bold;
+}
+#progetti{
+    font-family:"Roboto",sans-serif;
+    color:white;
+    font-size: medium;
+    z-index:0;
+    position: absolute;
+    right: 120px;
+    top: 17px;
+    cursor: pointer;
+    text-decoration:none;
+    font-style: bold;
+}
+#chisono{
+    font-family:"Roboto",sans-serif;
+    color:white;
+    font-size: medium;
+    z-index:0;
+    position: absolute;
+    right: 30px;
+    top: 17px;
+    cursor: pointer;
+    text-decoration:none;
+    font-style: bold;
+}
+.ret {
+	width:1360px;
+	height:50px;
+	background:black;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+}
+/* Home CSS */
+.benv{
+    color: black;
+    font-family: "Roboto";
+    position: absolute;
+    left:610px;
+    top: 40px;
+}
+.spieg{
+    color: black;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left:585px;
+    top: 85px;
+}
+.spieg1{
+    color: black;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left:360px;
+    top: 200px;
+}
+.vaivedere{
+    color: black;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left:420px;
+    top: 300px;
+}
+
+#button{
+    width: 170px; 
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+#button{
+    width: 170px;
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top:400px;
+    z-index: -1;
+    left:calc(50% - 85px);
+}
+#button *{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+#button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#button div{
+    background-color: aqua;
+    transform: translateX(-170px);
+    transition: all 0.2s ease-in-out;
+}
+#button:hover div{
+    transform: translateX(0);
+}
+#button:hover a{
+    color:white;
+}
+/* PROGETTI CSS */
+.rett1{
+    width:700px;
+	height:450px;
+	background:white;
+    position:absolute;
+    border-radius: 10px;
+    top:100px;
+    left:calc(50% - 350px);
+    z-index:-1;
+}
+.rett1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+.rett1 img{
+  width: 200px;
+  position: absolute;
+  top: 104px;
+  left:22px;
+}
+.rett1 p{
+    word-wrap: break-word;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left: 275px;
+    top:175px;
+    font-size: medium;
+    font-weight: bold
+}
+#downCalc{
+    width: 170px; 
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+#downCalc{
+    width: 170px;
+    height: 60px;
+    background-color: aquamarine;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top:250px;
+    z-index: -1;
+    left:calc(50% - 85px);
+}
+#downCalc *{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+#downCalc a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#downCalc div{
+    background-color: white;
+    transform: translateX(-170px);
+    transition: all 0.2s ease-in-out;
+}
+#downCalc:hover div{
+    transform: translateX(0);
+}
+#downCalc:hover a{
+    color:black;
+}
+.Oro{
+    width:700px;
+	height:450px;
+	background:white;
+    position:absolute;
+    border-radius: 10px;
+    top:500px;
+    left:calc(50% - 350px);
+    z-index:-1;
+}
+.Oro h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+.Oro img{
+  width: 200px;
+  position: absolute;
+  top: 104px;
+  left:22px;
+}
+.Oro p{
+    word-wrap: break-word;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left: 255px;
+    top:175px;
+    font-size: medium;
+    font-weight: bold
+}
+#downOro{
+    width: 170px; 
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+#downOro{
+    width: 170px;
+    height: 60px;
+    background-color: aquamarine;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top:500px;
+    z-index: -1;
+    left:calc(50% - 85px);
+}
+#downOro *{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+#ddownOro a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#downOro div{
+    background-color: white;
+    transform: translateX(-170px);
+    transition: all 0.2s ease-in-out;
+}
+#downOro:hover div{
+    transform: translateX(0);
+}
+#downOro:hover a{
+    color:black;
+}
+.chrome{
+    width:700px;
+	height:450px;
+	background:white;
+    position:absolute;
+    border-radius: 10px;
+    top:520px;
+    left:calc(50% - 350px);
+    z-index:-1;
+}
+.chrome h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+.chrome img{
+  width: 200px;
+  position: absolute;
+  top: 104px;
+  left:22px;
+}
+.chrome p{
+    word-wrap: break-word;
+    font-family: "Roboto",sans-serif;
+    position: absolute;
+    left: 255px;
+    top:175px;
+    font-size: medium;
+    font-weight: bold
+}
+#downChrome{
+    width: 170px; 
+    height: 60px;
+    background-color: white;
+    cursor: pointer;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+#downChrome{
+    width: 170px;
+    height: 60px;
+    background-color: aquamarine;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top:275px;
+    z-index: -1;
+    left:calc(50% - 85px);
+}
+#downChrome *{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+#downChrome a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#downChrome div{
+    background-color: white;
+    transform: translateX(-170px);
+    transition: all 0.2s ease-in-out;
+}
+#downChrome:hover div{
+    transform: translateX(0);
+}
+#downChrome:hover a{
+    color:black;
+}
+
+
+
